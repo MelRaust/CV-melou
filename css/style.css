@@ -36,12 +36,12 @@
     text-transform: uppercase;
   }
   
-  .text-blue{
-    color: #4472C4;
+  .text-t{
+    color: #555c68;
   }
   
-  .text-darkblue{
-    color: #002060;
+  .text{
+    color: #16eb0f;
   }
   
   .text-uppercase{
@@ -57,7 +57,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "left-column right-column right-column";
     width: 100%;
-    margin: 100px auto;
+    /** margin: 100px auto; **/
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
@@ -69,7 +69,7 @@
   .left-column{
     grid-area: left-column;
     padding: 50px;
-    background-color: #4472C4;
+    background-color: #2b3341;
     color: white;
   }
   
